@@ -90,8 +90,8 @@ This guide covers deploying ZeroFail AI to Vercel while maintaining local develo
 
 ### Backend (FastAPI on Vercel)
 
-- `vercel.json` configures Python runtime and routing
-- `api/index.py` imports and exposes the FastAPI app
+- `vercel.json` configures Python runtime
+- `api.py` imports and exposes the FastAPI app from server.py
 - `requirements.txt` lists Python dependencies
 - OpenRouter API key is injected via environment variable
 

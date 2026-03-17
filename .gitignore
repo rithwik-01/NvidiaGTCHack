@@ -34,6 +34,7 @@ env/
 
 # Environment variables
 .env
+frontend/.env
 
 # OS
 .DS_Store

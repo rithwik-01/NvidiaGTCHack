@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { AgentResults, WhatIfResults, UIState } from '../types/agent';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 export const useAgentRun = () => {
   const [state, setState] = useState<UIState>('idle');
